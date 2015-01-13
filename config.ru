@@ -1,2 +1,2 @@
-require '../best_quotes/config/application'
+require '../best-quotes/config/application'
 run BestQuotes::Application.new
