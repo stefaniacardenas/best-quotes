@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     rack (1.6.0)
-    runways (0.0.1)
+    runways (0.0.2)
       rack
 
 PLATFORMS
