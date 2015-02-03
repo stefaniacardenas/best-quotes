@@ -1,13 +1,17 @@
+PATH
+  remote: ../runways
+  specs:
+    runways (0.0.3)
+      rack
+
 GEM
   remote: https://rubygems.org/
   specs:
     rack (1.6.0)
-    runways (0.0.2)
-      rack
 
 PLATFORMS
   ruby
   x86-mingw32
 
 DEPENDENCIES
-  runways
+  runways!
