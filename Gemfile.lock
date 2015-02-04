@@ -2,11 +2,13 @@ PATH
   remote: ../runways
   specs:
     runways (0.0.3)
+      erubis
       rack
 
 GEM
   remote: https://rubygems.org/
   specs:
+    erubis (2.7.0)
     rack (1.6.0)
 
 PLATFORMS
