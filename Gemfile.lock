@@ -3,12 +3,14 @@ PATH
   specs:
     runways (0.0.3)
       erubis
+      multi_json
       rack
 
 GEM
   remote: https://rubygems.org/
   specs:
     erubis (2.7.0)
+    multi_json (1.10.1)
     rack (1.6.0)
 
 PLATFORMS
