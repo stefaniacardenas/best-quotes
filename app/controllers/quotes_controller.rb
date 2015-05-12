@@ -23,5 +23,11 @@ class QuotesController < Runways::Controller
     m = FileModel.create attrs
     render :quote, :obj => m
   end
+
+  def show
+    quote = FileModel.find(params["id"])
+    ua = request.user_agent #This gets the info about the user's browser
+    render_response :quote, :obj => quote, :ua => ua
+  end
 	
 end
